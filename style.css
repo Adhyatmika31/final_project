@@ -326,7 +326,7 @@ body {
 
 .login .form-details {
     padding: 0 40px;
-    background: url("images/login-img.jpg");
+    background: url("login-img.jpg");
     background-position: center;
     background-size: cover;
     border-radius: 20px;
@@ -334,7 +334,7 @@ body {
 
 .signup .form-details {
     padding: 0 20px;
-    background: url("images/signup-img.jpg");
+    background: url("signup-img.jpg");
     background-position: center;
     background-size: cover;
     border-radius: 20px;
