@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <script src="script.js" defer></script>
+  <title>ADHVI</title>
+</head>
+<body bgcolor="#E8ADAA">
+<div class="topnav">
+  <ul class="links">
+    <span class="close-btn hamburger-btn">Close</span>
+  </ul>
+  <a class="login-btn">LOG IN</a>
+  <a href="#home">ABOUT</a>
+  <a href="#news">SOPPORT</a>
+  <a href="home.html">HOME</a>
+  <p align="left">ADHVI</p>
+</div>
+<div class="wrapper">
+      <i id="left" class="fa-solid fa-angle-left"></i>
+      <ul class="carousel">
+        <li class="card">
+          <div class="img"><img src="images/img-1.jpg" alt="img" draggable="false"></div>
+          <h2>Slide 1</h2>
+          <span>Sales Manager</span>
+        </li>
+        <li class="card">
+          <div class="img"><img src="images/img-2.jpg" alt="img" draggable="false"></div>
+          <h2>Slide 2</h2>
+          <span>Web Developer</span>
+        </li>
+        <li class="card">
+          <div class="img"><img src="images/img-3.jpg" alt="img" draggable="false"></div>
+          <h2>Slide 3</h2>
+          <span>Online Teacher</span>
+        </li>
+        <li class="card">
+          <div class="img"><img src="images/img-4.jpg" alt="img" draggable="false"></div>
+          <h2>Slide 4</h2>
+          <span>Freelancer</span>
+        </li>
+        <li class="card">
+          <div class="img"><img src="images/img-5.jpg" alt="img" draggable="false"></div>
+          <h2>Slide 5</h2>
+          <span>Bank Manager</span>
+        </li>
+        <li class="card">
+          <div class="img"><img src="images/img-6.jpg" alt="img" draggable="false"></div>
+          <h2>Slide 6</h2>
+          <span>App Designer</span>
+        </li>
+      </ul>
+      <i id="right" class="fa-solid fa-angle-right"></i>
+    </div>
+<div class="blur-bg-overlay"></div>
+    <div class="form-popup">
+        <span class="close-btn">close</span>
+        <div class="form-box login">
+            <div class="form-details">
+                <h2>Welcome Back</h2>
+                <p>Please log in using your personal information to stay connected with us.</p>
+            </div>
+            <div class="form-content">
+                <h2>LOGIN</h2>
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <a href="#" class="forgot-pass-link">Forgot password?</a>
+                    <button type="submit">Log In</button>
+                </form>
+                <div class="bottom-link">
+                    Don't have an account?
+                    <a href="#" id="signup-link">Signup</a>
+                </div>
+            </div>
+        </div>
+        <div class="form-box signup">
+            <div class="form-details">
+                <h2>Create Account</h2>
+                <p>To become a part of our community, please sign up using your personal information.</p>
+            </div>
+            <div class="form-content">
+                <h2>SIGNUP</h2>
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" required>
+                        <label>Enter your email</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" required>
+                        <label>Create password</label>
+                    </div>
+                    <div class="policy-text">
+                        <input type="checkbox" id="policy">
+                        <label for="policy">
+                            I agree the
+                            <a href="#" class="option">Terms & Conditions</a>
+                        </label>
+                    </div>
+                    <button type="submit">Sign Up</button>
+                </form>
+                <div class="bottom-link">
+                    Already have an account? 
+                    <a href="#" id="login-link">Login</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
