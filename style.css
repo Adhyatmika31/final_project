@@ -1,27 +1,30 @@
 body {
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(#033E3E 15%, #123456, #2B547E, #368BC1);
-    /*background: url("images/hero-bg.jpg") center/cover no-repeat;*/
+    /*background-image: linear-gradient(#033E3E 15%, #123456, #2B547E, #368BC1);*/
+    background: url("images/hero-bg.jpg") center/cover no-repeat;
 }
+
 /*Support page CSS*/
 .support{
-    min-height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(#033E3E 15%, #123456, #2B547E, #368BC1);
 }
 
 .support form{
-    width: 670px;
-    height: 400px;
+    width: 770px;
+    height: 420px;
+    margin-bottom: 5%;
     display: flex;
     justify-content: center;
     box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
     border-radius: 15px;
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
+    /*background: url("images/hero-bg.jpg") center/cover no-repeat ;
+    /*background-image: linear-gradient(45deg,#003434,#033E3E);*/
+    background: rgba(255, 255, 255, 0.01);
+    backdrop-filter: blur(20px);
     flex-wrap: wrap;
 }
 
@@ -104,17 +107,35 @@ textarea::-webkit-scrollbar-thumb{
     opacity: 0.7;
 }
 
-/*Introduction of Website*/
-.intro h1{
-    padding: 20px;
+/*About Page CSS*/
+.about{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.intro{
-    line-height: 35px;
+
+.about pre{
+    width: 670px;
+    height: 400px;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    /*background: url("images/hero-bg.jpg") center/cover no-repeat ;
+    /*background-image: linear-gradient(45deg,#003434,#033E3E);*/
+    background: rgba(255, 255, 255, 0.01);
+    backdrop-filter: blur(20px);
+    flex-wrap: wrap;
+}
+
+.about pre h1{
+    color: #fff;
+    font-weight: 500;
+    margin-top: 20px;
+    width: 500px;
     text-align: center;
-    font-weight: bold;
-    font-size: 22px;
-    font-family: Times new roman;
-    color: white;
 }
 
 /*Introduction of Website*/
@@ -133,7 +154,7 @@ textarea::-webkit-scrollbar-thumb{
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #000000;
-  margin: 1.2%;
+  margin: 1%;
   border-radius: 10px;
   overflow: hidden;
 }
@@ -438,7 +459,7 @@ textarea::-webkit-scrollbar-thumb{
 
 .login .form-details {
     padding: 0 40px;
-    background: url("login-img.jpg");
+    background: url("images/login-img.jpg");
     background-position: center;
     background-size: cover;
     border-radius: 20px;
@@ -446,7 +467,7 @@ textarea::-webkit-scrollbar-thumb{
 
 .signup .form-details {
     padding: 0 20px;
-    background: url("signup-img.jpg");
+    background: url("images/signup-img.jpg");
     background-position: center;
     background-size: cover;
     border-radius: 20px;
